@@ -17,10 +17,10 @@
             <a href="/">COMICS</a>
         </li>
         <li>
-            <a href="/comic">SINGOLO PROVA</a>
+            <a href="">SINGOLO PROVA</a>
         </li>
         <li>
-            <a href="">ciaociao</a>
+            <a href="">prova</a>
         </li>
         <li>
             <a href="">prova</a>

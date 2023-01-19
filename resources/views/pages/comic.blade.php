@@ -38,6 +38,7 @@
             </p>
         </div>
 
+
     </div>
 
 
@@ -96,6 +97,14 @@
                     <div class="w-25">On Sale Date:</div>
                     <div class="w-75">
                         {{ $single_comic['sale_date'] }}
+                    </div>
+                </div>
+                <div class="separee w-100 bg-dark"></div>
+
+                <div class="d-flex py-2">
+                    <div class="w-25">Type:</div>
+                    <div class="w-75">
+                        {{ $single_comic['type'] }}
                     </div>
                 </div>
                 <div class="separee w-100 bg-dark"></div>
