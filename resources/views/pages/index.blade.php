@@ -7,7 +7,7 @@
 
             <div class=" d-flex flex-wrap">
 
-                @foreach ($comics as $key => $elem)
+                @foreach ($comics as $elem)
                     <div class="card-container">
                         <div class="card-image">
 
@@ -18,7 +18,7 @@
                         <div class="card-body">
                             <h5 class="card-title fs-6 text-white">
 
-                                <a href="{{ route('comic', compact('key')) }}">
+                                <a href="{{ route('comics.show', $elem->id) }}">
 
                                     {{ $elem['title'] }}
 

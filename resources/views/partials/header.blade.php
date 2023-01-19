@@ -14,7 +14,7 @@
             <a href="{{ route('home') }}">HOME</a>
         </li>
         <li>
-            <a href="">COMICS</a>
+            <a href="{{ route('comics.index') }}">COMICS</a>
         </li>
         <li>
             <a href="">prova</a>
