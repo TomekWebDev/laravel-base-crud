@@ -6,7 +6,7 @@ Route::get('/', function () {
 
     $comics = config('comics');
 
-    return view('home', compact('comics'));
+    return view('pages.home', compact('comics'));
 });
 
 Route::get('/{key}', function ($key) {
@@ -20,5 +20,5 @@ Route::get('/{key}', function ($key) {
         abort(404);
     }
 
-    return view('comic', compact('single_comic'));
+    return view('pages.comic', compact('single_comic'));
 })->name('comic');;
