@@ -1,0 +1,40 @@
+.footer-menu-container {
+    background-image: url('../images/footer-bg.jpg');
+    background-size: cover;
+
+}
+
+h3 {
+    color: white;
+}
+
+li {
+    list-style: none;
+    color: gray;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.flex {
+    display: flex;
+    width: 90%;
+    margin: auto;
+
+    div {
+        padding: 1rem;
+    }
+}
+
+.dcBg {
+    width: 400px;
+    background-image: url(../assets/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 300px;
+}
+
+footer {
+    background-color: #1c1c1c;
+}
