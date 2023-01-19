@@ -45,7 +45,7 @@
 
         <div class="w-75 py-5 m-auto d-flex justify-content-between">
 
-            <div class="talent">
+            {{-- <div class="talent">
 
                 <h4>Talent</h4>
 
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="separee w-100 bg-dark"></div>
-            </div>
+            </div> --}}
 
             <div class="specs">
 

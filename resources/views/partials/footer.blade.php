@@ -13,7 +13,7 @@
     <div class="footer-menu-container w-100 d-flex">
 
         <div class="flex">
-            <div>
+            <div class="mx-4">
                 <h3>DC COMICS</h3>
                 <ul>
                     <li>Characters</li>
@@ -31,7 +31,7 @@
                     <li>Shop DC Collectibles</li>
                 </ul>
             </div>
-            <div>
+            <div class="mx-4">
                 <h3>DC</h3>
                 <ul>
                     <li>Terms Of Use</li>
@@ -47,7 +47,7 @@
                     <li>Contact Us</li>
                 </ul>
             </div>
-            <div>
+            <div class="mx-4">
                 <h3>SITES</h3>
                 <ul>
                     <li>DC</li>
