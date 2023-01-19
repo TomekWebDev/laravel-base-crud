@@ -8,9 +8,6 @@ class PagesController extends Controller
 {
     public function index()
     {
-
-        $comics = config('comics');
-
-        return view('pages.home', compact('comics'));
+        return view('pages.home');
     }
 }

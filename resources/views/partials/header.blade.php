@@ -11,13 +11,13 @@
             <img src="{{ asset('images/dc-logo.png') }}" alt="logo">
         </li>
         <li>
+            <a href="{{ route('home') }}">HOME</a>
+        </li>
+        <li>
+            <a href="">COMICS</a>
+        </li>
+        <li>
             <a href="">prova</a>
-        </li>
-        <li>
-            <a href="/">COMICS</a>
-        </li>
-        <li>
-            <a href="">SINGOLO PROVA</a>
         </li>
         <li>
             <a href="">prova</a>
