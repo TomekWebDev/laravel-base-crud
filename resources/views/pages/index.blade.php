@@ -5,6 +5,10 @@
 
         <div class="container py-5">
 
+            <div>
+                <a href="{{ route('comics.create') }}">Create Comic</a>
+            </div>
+
             <div class=" d-flex flex-wrap">
 
                 @foreach ($comics as $elem)
@@ -35,4 +39,6 @@
         </div>
 
     </div>
+
+    {{ $comics->links() }}
 @endsection

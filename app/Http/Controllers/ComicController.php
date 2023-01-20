@@ -14,7 +14,7 @@ class ComicController extends Controller
      */
     public function index()
     {
-        $comics = Comic::All();
+        $comics = Comic::orderBy('id', 'desc')->paginate(6);
 
         // $comics = config('comics');
 
@@ -28,7 +28,7 @@ class ComicController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.create');
     }
 
     /**
@@ -39,7 +39,26 @@ class ComicController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->all();
+
+        $request->validate(
+            [
+                'title' => 'required|max:50'
+            ],
+            [
+                'title.required' => 'Attenzione il campo title è obbligatorio',
+                'title.max' => 'Attenzione il campo non deve superare i 50 caratteri'
+            ]
+        );
+
+
+
+        $new_record = new Comic();
+        $new_record->fill($data);
+
+        $new_record->save();
+
+        return redirect()->route('comics.show', ['comic' => $new_record->id]);
     }
 
     /**
